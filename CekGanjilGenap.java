@@ -1,9 +1,10 @@
 public class CekGanjilGenap {
 		public static void main (String[] args){
 			
-			int nilai = Integer.parseInt(args[0]);
-			String cek = nilai%2 == 0 ? "Genap":"Ganjil";
-			System.out.println(cek);
+			int input = Integer.parseInt(args[0]);
+			String hasil = input %2 == 0 ? "Genap":"Ganjil";
+			System.out.println("Program Test Angka Ganjil Genap");
+			System.out.println(input + " Ini adalah bilangan " + hasil);
 			
 		}
 }
